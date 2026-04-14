@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Clash_Regular;
+    src: url('../assets/fonts/Clash_Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: Clash_Bold;
+    src: url('../assets/fonts/Clash_Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+a {
+    font-family: Clash_Bold;
+    color: white !important;
+    text-decoration: none;
+    text-shadow: -2px -2px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000,
+     0px  2px 0 #333;;
+}
+
+nav {
+    font-family: Clash_Bold;
+    color: white !important;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+body {
+    font-family: Clash_Regular !important;
+}
+
